@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#ffc2deff">
+
+    <TextView android:text="@string/main_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gebruikersnaam:"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/username"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginLeft="22dp"
+        android:autoText="false"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wachtwoord:"
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/username"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inloggen"
+        android:id="@+id/button"
+        android:layout_marginTop="24dp"
+        android:onClick="openOverview"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="overview_text">Klik op SCAN om te beginnen met het scannen.</string>
+    <string name="main_text">Log in om de scanner te kunnen gebruiken.</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_activity_main">Overzichtsscherm</string>
+    <string name="title_activity_overview">Overzichtsscherm</string>
+    <string name="barcode">Barcode Scanning...</string>
+    <string name="scan">Scan</string>
+</resources>
